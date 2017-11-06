@@ -10,6 +10,7 @@ import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.app_bar_main.*
+import org.jetbrains.anko.startActivity
 
 class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -54,22 +55,28 @@ class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_brands -> {
-                //
+                startActivity<Brands>()
             }
             R.id.nav_products -> {
-
+                startActivity<Products>()
             }
             R.id.nav_services -> {
-
+                startActivity<Services>()
             }
             R.id.nav_college -> {
-
+                startActivity<College>()
             }
             R.id.nav_contact -> {
-
+                startActivity<ContactUs>()
             }
             R.id.nav_blog -> {
-
+                startActivity<Blog>()
+            }
+            R.id.nav_locations -> {
+                startActivity<Locations>()
+            }
+            R.id.nav_account -> {
+                startActivity<Account>()
             }
         }
 

@@ -21,7 +21,79 @@
         <activity
             android:name=".activities.Home"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Brands"
+            android:label="@string/title_activity_brands"
+            android:parentActivityName=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ai.kortnevdmitriy.lintonsbeauty.activities.Home" />
+        </activity>
+        <activity
+            android:name=".activities.Products"
+            android:label="@string/title_activity_products"
+            android:parentActivityName=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ai.kortnevdmitriy.lintonsbeauty.activities.Home" />
+        </activity>
+        <activity
+            android:name=".activities.Services"
+            android:label="@string/title_activity_services"
+            android:parentActivityName=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ai.kortnevdmitriy.lintonsbeauty.activities.Home" />
+        </activity>
+        <activity
+            android:name=".activities.Locations"
+            android:label="@string/title_activity_locations"
+            android:parentActivityName=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ai.kortnevdmitriy.lintonsbeauty.activities.Home" />
+        </activity>
+        <activity
+            android:name=".activities.College"
+            android:label="@string/title_activity_college"
+            android:parentActivityName=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ai.kortnevdmitriy.lintonsbeauty.activities.Home" />
+        </activity>
+        <activity
+            android:name=".activities.Account"
+            android:label="@string/title_activity_account"
+            android:parentActivityName=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ai.kortnevdmitriy.lintonsbeauty.activities.Home" />
+        </activity>
+        <activity
+            android:name=".activities.Blog"
+            android:label="@string/title_activity_blog"
+            android:parentActivityName=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ai.kortnevdmitriy.lintonsbeauty.activities.Home" />
+        </activity>
+        <activity
+            android:name=".activities.ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName=".activities.Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ai.kortnevdmitriy.lintonsbeauty.activities.Home" />
+        </activity>
     </application>
 
 </manifest>
