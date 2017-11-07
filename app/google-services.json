@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949425908915",
+    "firebase_url": "https://lintonsbeauty-72894.firebaseio.com",
+    "project_id": "lintonsbeauty-72894",
+    "storage_bucket": "lintonsbeauty-72894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949425908915:android:302477e10bfb983a",
+        "android_client_info": {
+          "package_name": "ai.kortnevdmitriy.lintonsbeauty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949425908915-v894shqdq8gal7irnbklvtde6pnp3ee2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.kortnevdmitriy.lintonsbeauty",
+            "certificate_hash": "6383c41248635cba14e7d0729a18f5abfacc6ec2"
+          }
+        },
+        {
+          "client_id": "949425908915-bdd3r1rdd2dfj38237aqq18tmpe9qeep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMx6CIo1IamBnP1isUgky3OOFXA4f9Rc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949425908915-bdd3r1rdd2dfj38237aqq18tmpe9qeep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
